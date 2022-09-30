@@ -1,0 +1,114 @@
+body{
+    background-image: url("Src/LoginBackground.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@keyframes Main{
+	from{opacity: 0;}
+	to{opacity: 100;}
+
+}
+
+#MainTitle{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    margin: 0px;
+    font-family: 'Black Han Sans', sans-serif;
+	animation-name: Main;
+	animation-duration: 2s;
+	margin-top: 25%;
+	margin-left:2%;
+	filter: drop-shadow(4px 4px 4px #4444dd);
+	transition: 1.0s;
+	
+}
+
+#MainTitle:hover{
+color:#9842b3;
+filter: drop-shadow(4px 4px 4px #d66bfa);
+transition: 1.0s;
+}
+
+header{
+    border-radius: 0px;
+    color: white;
+    background-color: transparent;
+	border-color: transparent;
+	
+	filter: drop-shadow(4px 4px 4px #4444dd);
+
+    text-align: center;	
+	font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+	
+	transition: 0.5s;
+}
+
+a{
+	margin-left: 5px;
+    margin-right: 5px;
+	
+}
+
+
+button:hover{
+    color: #9842b3;
+    transition: color 0.1s;
+}
+
+button:active{
+    filter: drop-shadow(4px 4px 4px #9842b3);
+    color: white;
+	transition:0.3s;
+
+}
+
+hr{
+    margin: 0px;
+    color: white;
+    size: 5px;
+}
+
+#aboutus{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+}
+
+#pessoa{
+	width:350px;
+	height:100px;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	align-items:center;
+	background-color:white;
+	margin-top: 10%;
+	
+	border-radius: 3%;
+	height: 425px;
+	margin-left:100px;
+	margin-right: 50px;
+	filter: drop-shadow(0px 0px 4px #9842b3);
+}
+
+#pessoa{
+	width:350px;
+	height:100px;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	align-items:center;
+	background-color:white;
+	margin-top: 10%;
+	
+	border-radius: 3%;
+	height: 425px;
+	margin-left: 100px;
+	margin-right: 50px;
+	filter: drop-shadow(0px 0px 4px #9842b3);
+}

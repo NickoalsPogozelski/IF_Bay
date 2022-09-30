@@ -1,0 +1,420 @@
+body{
+margin: none;
+padding: none;
+background-color: #DADCE2;
+}
+
+#cover{
+position: relative;
+top: 0;
+left: 0;
+}
+
+#banner{
+width: 110%;
+height: 300px;
+object-fit: cover;
+
+position: relative;
+top: 0;
+left: 0;
+z-index: -1;
+margin: none;
+transform: translate(-10px, -10px);
+}
+
+#shadow{
+width: 110%;
+height: 300px;
+object-fit: cover;
+
+position: absolute;
+top: 0px;
+left: 0px;
+z-index: 1;
+transform: translate(-10px, -10px);
+
+}
+
+#userinfo{}
+#user{
+width: 300px;
+height: 400px;
+object-fit: cover;
+
+position: absolute;
+transform: translate(50px, -200px);
+z-index: 2;
+
+filter: drop-shadow(0 0 0.75rem black);
+}
+
+#name{
+font-family: 'Montserrat', sans-serif;
+color: white;
+position: absolute;
+transform: translate(375px, -110px);
+z-index: 2;
+}
+
+#subtitle{
+font-family: 'Montserrat', sans-serif;
+color: white;
+position: absolute;
+transform: translate(377px, -65px);
+z-index: 2;
+}
+
+#about{
+background-color: white;
+width: 300px;
+height: 400px;
+position: absolute;
+transform: translate(50px, 200px);
+filter: drop-shadow(0 0 0.75rem black);
+z-index: 2;
+}
+
+#followbtn{
+border-radius: 40px;
+padding: 10px;
+padding-left: 30px;
+padding-right: 30px;
+font-size: 20px;
+border: none;
+background-color: white;
+color: midnightblue;
+font-family: 'Open Sans', sans-serif;
+z-index: 4;
+position: absolute;
+transform: translate(72px, 130px);
+}
+
+#followbtn:hover{
+transition: 0.4s;
+cursor: pointer;
+filter: drop-shadow(0 0 0.75rem black);
+}
+
+#more{
+border-radius: 100%;
+background-color: transparent;
+border: none;
+padding: 0px;
+font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+color: white;
+width: 43px;
+height: 43px;
+align-self: center;
+outline-style: solid;
+outline-width: 1px;
+padding-bottom: 15px;
+position: absolute;
+transform: translate(283px, 133px);
+z-index: 4;
+}
+
+#aboutText{
+z-index: 4;
+position: absolute;
+transform: translate(75px, 200px);
+font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+}
+
+#paragraph{
+position: absolute;
+font-family: 'Open Sans', sans-serif;
+width: 250px;
+z-index: 4;
+transform: translate(75px, 235px);
+}
+
+.fa-star{
+    color: gray;
+    position: relative;
+    z-index: 5;
+    transform: translate(75px, 500px);
+    font-size: 30px;
+}
+.checked{
+    position: relative;
+    z-index: 5;
+    transform: translate(75px, 500px);
+    color: yellow;
+}
+#stars{
+    display: flex;
+    align-items: center;
+}
+#rating{
+    position: relative;
+    z-index: 5;
+    transform: translate(75px, 500px);
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#starelement{
+    margin-left: 75px;
+}
+
+#featured{
+    position: absolute;
+    background-color: white;
+    z-index: 6;
+    width: 750px;
+    height: 150px;
+    transform: translate(375px, -40px);
+    filter: drop-shadow(0 15px 0.75rem gray);
+}
+
+#featuredtitle{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin-left: 185px;
+    color: gray;
+    margin-bottom: none;
+    padding: none;
+}
+
+#projecttitle{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-left: 185px;
+    margin-top: none;
+    padding: none;
+    position: absolute;
+    transform: translate(0px, -22px);
+}
+
+#projectinfo{
+    margin-left: 185px;
+    margin-top: 35px;
+    font-family: 'Open Sans', sans-serif;
+    width: 450px;
+    font-size: 15px;
+}
+
+#projectpic{
+    height:150px;
+    width: 150px;
+    position: absolute;
+}
+
+#more:hover{
+    cursor: pointer;
+}
+
+#dropbar{
+    height: auto;
+    background-color: white;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(121, 120, 120, 0.1);
+    transform: translate(283px, 485px);
+    z-index: 7;
+
+}
+
+#contactbtn{
+border: none;
+border-radius: 15px;
+background-color: white;
+font-family: 'Montserrat', sans-serif;
+margin: 5px;
+
+}
+
+#contactbtn:hover{
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+#reportbtn{
+border: none;
+border-radius: 15px;
+background-color: white;
+color: red;
+font-family: 'Montserrat', sans-serif;
+margin: 5px;
+
+}
+
+#reportbtn:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+#criticspic{
+    position:absolute;
+    z-index: 8;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+    transform: translate(475px, 150px);
+}
+
+#criticsname{
+    position: absolute;
+    transform: translate(485px, 285px);
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 8;
+}
+
+#critictxt{
+    position: absolute;
+    transform: translate(656px, 155px);
+    font-size: 15px;
+    width: 475px;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 8;
+}
+
+#date{
+    position: absolute;
+    transform: translate(655px, 255px);
+    color: gray;
+    font-size: 20px;
+    width: 475px;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 8;
+}
+
+#icone{
+    width: 50px;
+    height:50px;
+    border-radius: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 9;
+    flex-direction: row-reverse;
+
+}
+
+#icone:hover{
+    cursor: pointer;
+    color: white;
+}
+
+#userDropbar{
+    height: auto;
+    background-color: white;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(121, 120, 120, 0.1);
+    transform: translate(1210px, 55px);
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+}
+
+#profileButton{
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px;
+    
+
+}
+
+#profileButton:hover{
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+#getOut{
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px;
+}
+
+#getOut:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+#changePic{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    
+    position: absolute;
+    transform: translate(50px, -200px);
+    z-index: 3;
+    border: none;
+    background-color: transparent;
+    color: transparent;
+    font-size: 120px;
+}
+
+#changePic:hover{
+    background-color: black ;
+    color: white;
+    outline: 1px;
+    outline-style: solid;
+    outline-color: white;
+    opacity: 0.5;
+}
+
+#changebanner{
+    width: 110%;
+    height: 300px;
+    object-fit: cover;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    margin: none;
+    transform: translate(-10px, -10px);
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    font-size: 250px;
+}
+
+#changebanner:hover{
+    color: white;
+    background-color: black;
+    outline-style: solid;
+    outline-color: white;
+    opacity: 0.5;
+}
+
+#flex{ 
+display: flex;
+justify-content: end;
+}
+#star1:hover{
+cursor: pointer;
+}
+
+#star2:hover{
+cursor: pointer;
+}
+
+#star3:hover{
+cursor: pointer;
+}
+
+#star4:hover{
+cursor: pointer;
+}
+
+#star5:hover{
+cursor: pointer;
+}
+

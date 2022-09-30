@@ -1,0 +1,81 @@
+body{
+    background-image: url("Src/Background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@keyframes Main{
+	from{opacity: 0;}
+	to{opacity: 100;}
+
+}
+
+#MainTitle{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    margin: 0px;
+    font-family: 'Black Han Sans', sans-serif;
+	animation-name: Main;
+	animation-duration: 2s;
+	margin-top: 25%;
+	margin-left:2%;
+	filter: drop-shadow(4px 4px 4px #4444dd);
+	transition: 1.0s;
+	
+}
+
+#MainTitle:hover{
+color:#9842b3;
+filter: drop-shadow(4px 4px 4px #d66bfa);
+transition: 1.0s;
+}
+
+
+#Buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button{
+    border-radius: 0px;
+    color: white;
+    background-color: transparent;
+	border-color: transparent;
+	
+	filter: drop-shadow(4px 4px 4px #4444dd);
+
+    text-align: center;	
+	font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+	
+	transition: 0.5s;
+}
+
+header{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+button:hover{
+    color: #9842b3;
+    transition: color 0.1s;
+}
+
+button:active{
+    filter: drop-shadow(4px 4px 4px #9842b3);
+    color: white;
+	transition:0.3s;
+
+}
+
+hr{
+    margin: 0px;
+    color: white;
+    size: 5px;
+}

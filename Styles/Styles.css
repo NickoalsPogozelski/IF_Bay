@@ -1,0 +1,185 @@
+body{
+	margin: none;
+	padding: none;
+	height: 100%;
+}
+
+#userInfo{
+	background-color: #4a1768;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	width: 250px;
+	height: 100%;
+	flex-direction: column;
+	margin:none;
+
+	
+}
+
+#feed{
+	background-color: #f6f6f9;
+	width: 100%;
+	
+}
+
+#page{
+	display:flex;
+	flex-direction:row;
+	
+	
+}
+
+#title{
+	font-family: 'Black Han Sans', sans-serif;
+
+	font-size:20px;
+	color: #f6f6f9;
+	
+}
+
+#Username{
+	font-family: 'Black Han Sans', sans-serif;
+	font-size:20px;
+	color: #f6f6f9;
+}
+
+#UserIcon{
+	width:150px;
+	height:150px;
+	border-radius:100%;
+	
+	border: 5px solid #f6f6f9;
+	border-color: #f6f6f9;
+	
+	filter: drop-shadow(4px 10px 4px #350D4D);
+
+}
+
+#line{
+	width: 150px;
+	color: #f6f6f9;
+	border-color: #f6f6f9;
+	
+	
+}
+
+#line2{
+	margin-top:10px;
+	width: 95%;
+	color: #4a1768;
+	border-color: #4a1768;
+	
+}
+
+#FeedTitle{
+	font-family: 'Black Han Sans', sans-serif;
+	font-size:20px;
+	color: #4a1768;
+	margin-left: 25px;
+	
+}
+
+#search{
+	
+	height:25px;
+	width: 300px;
+	border-radius: 3%;
+	border:none;
+	background-color: #D6D6E0;
+	position:absolute;
+	transform: translateX(437px);
+}
+
+#search:active{
+	border:none;
+}
+
+#searchbar{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#submit{
+	width: 50px;
+	padding: 4px;
+	background-color: #892D9B;
+	border:none;
+	position:absolute;
+	transform: translateX(740px);
+}
+
+#UserminiIcon{
+	width: 35px;
+	height: 35px;
+	
+	filter: drop-shadow(1px 2px 2px #A29DA5);
+	border-radius:100%;
+	
+}
+
+#buttontray{
+	display:flex;
+	
+	flex-direction:column;
+	align-items:center;
+	justify-content:left;
+	margin-left:auto;
+	margin-right: none;
+	
+
+	
+}
+
+#button{
+	width:125px;
+	text-align: left;
+	border: none;
+	height:35px;
+	padding:5px;
+	background-color: #4a1768;
+	color: white;
+}
+
+#button:active{
+	width:125px;
+	text-align: left;
+	border: none;
+	height:35px;
+	border-radius: 4%;
+	padding:5px;
+	background-color: #f6f6f9;
+	color: #4a1768;
+}
+
+#icon{
+	width:25px;
+	height:25px;
+	
+	margin-left:15px;
+	margin-right:15px;
+}
+
+#icon2{
+	width:20px;
+	height:20px;
+	
+	margin-left:15px;
+	margin-right:15px;
+}
+
+#icontray{
+	margin-left:auto;
+	margin-right:none;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:space-between;
+	position: absolute;
+	transform: translateX(850px);
+	
+	
+}
+
