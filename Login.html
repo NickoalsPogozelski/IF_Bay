@@ -2,6 +2,7 @@
 <head>
     <title>The Work Bay</title>
     <meta charset="UTF-8">
+	<script src="Script.js"></script>
     <meta name="viewport" content="width=device-width, initial scale=1.0">
 	<link rel="stylesheet" href="Styles/Login.Styles.css">
 	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
@@ -11,18 +12,18 @@
 <body>
 
 	<div id="login">
-		<h1 id="textolog">BEM BINDO DE VOLTA</h1>
+		<h1 id="textolog">BEM VINDO DE VOLTA</h1>
 		<br>
-		<input type="text" name="Login" id="input" placeholder="Nome de usuário / E-mail">
+		<input type="text" name="Login" id="input" class="login" placeholder="Nome de usuário / E-mail">
 		<br>
-		<input type="password" name="Password" id="input" placeholder="Senha">
+		<input type="password" name="Password" id="input" class="password" placeholder="Senha">
 		
 		
 		<div id="checkbox">
 		<input type="checkbox">
 		<span id="fontefina">lembrar senha</span>
 		</div>
-		<button id="loginbutton">ENTRAR</button>
+		<button id="loginbutton" onclick="redirectTo('UserProfile')">ENTRAR</button>
 		<a id="fontefina" href="https://dicionario.priberam.org/fodase">Esqueci minha senha<a>
 	</div>
 </body>
